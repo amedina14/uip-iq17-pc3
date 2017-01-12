@@ -4,3 +4,6 @@
 - **Profesor**: Abdel G. Martinez L.
 - **Estudiante**: L. Adrian Medina R.
 - **Horario curso**: Miercoles, 6:30 pm a 10:20 pm
+
+##License
+The code for this repository is under the MIT license(view LICENSE file).

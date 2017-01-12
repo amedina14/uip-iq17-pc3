@@ -1,4 +1,5 @@
 # uip-iq17-pc3
+
 Curso: Programación de computadoras 3 - Python
 Profesor: Abdel G. Martinez L.
 Estudiante: L. Adrian Medina R.

@@ -1,0 +1,143 @@
+Proyecto clima: 
+App conectarese a API remoto para obtener data en tiempo real de la temperatura,
+precipitacion y cosas de climatologia. 
+
+Incluye:
+documentcion, repo, pruebas funcionales (unitarias por cada clase y funciones)
+
+
+Proyecto 2: X y 0
+
+
+'''
+ejemplo 1 clase 2:
+Nivelar, ciclo.
+nombre
+nota final
+A
+B
+C
+D
+F
+'''
+
+nombre = input("Nombre: ")
+nota final= int(input("nota final: "))
+
+if notafinal >= 91 and notafinal <= 100:
+    print(nombre + ", sacaste una A")
+elif notafinal >= 81: 
+    print(nombre + ", sacaste una B")
+elif notafinal >= 71: 
+    print(nombre + ", sacaste una C")
+else:
+    print(nombre + ", sacaste una F")    
+
+'''    
+if 91 <= notafinal <= 100:
+
+
+else:
+    if notafinal < 0:
+        print("nota invalida")
+    else
+    print(nombre + ", sacaste una F")    
+
+'''
+
+ej 3
+
+nombre = input("Nombre: ")
+notafinal = int(input("nota final: "))
+
+if 91 <= notafinal <= 100:
+    print(nombre + ", sacaste una A (" + str(notafinal) + ")!")
+elif notafinal >= 81: 
+    print(nombre + ", sacaste una B (" + str(notafinal) + ")!")
+elif notafinal >= 71: 
+    print(nombre + ", sacaste una C (" + str(notafinal) + ")!")
+else:
+    if notafinal < 0:
+        print("nota final invalida")
+    else:
+        print(nombre + ", sacaste una F (" + str(notafinal) + ")!")    
+
+ej 4
+
+mensaje =
+        """
+         Es un mensaje de
+         varias lineas y
+         no me interesa lo que falte.
+         Chao
+        """
+
+sal = True
+
+#while sal: (asume la verdad booleana)
+while sal == True:
+    nombre = input("Nombre: ")
+    notafinal = int(input("nota final: "))
+
+    if 91 <= notafinal <= 100:
+        print(nombre + ", sacaste una A (" + str(notafinal) + ")!")
+    elif notafinal >= 81:
+        print(nombre + ", sacaste una B (" + str(notafinal) + ")!")
+    elif notafinal >= 71:
+        print(nombre + ", sacaste una C (" + str(notafinal) + ")!")
+    else:
+        if notafinal < 0:
+            print("nota final invalida")
+        else:
+            print(nombre + ", sacaste una F (" + str(notafinal) + ")!")
+    opcion = input("Desea continuar (S/N)? ").upper()
+
+    if opcion == 'N':
+        sal = False
+        print("Hasta luego")
+    elif opcion == 'S':
+        sal = True
+    else:
+        sal = True
+        print("No colocaste algo valido, pero te mantendre en el ciclo")
+
+print(mensaje)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

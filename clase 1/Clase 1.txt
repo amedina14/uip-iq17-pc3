@@ -1,0 +1,103 @@
+salario_base = 1250.75
+//cedula = 1.1e-5
+
+bienvenida='''
+Bienvenido al programa
+que se encarga de evaluar
+el salario del colaborador...
+'''
+#Imprime el mensaje de bienvenida. Comentario de 1 linea
+print(bienvenida)
+
+"""
+Comentario de multiple linea
+Se solicita el nombre y el salario
+del empleado para calcular su
+salario neto, 5% menos del salario
+"""
+
+nombre = input("Nombre: ")  //lectura de datos
+salario = float(input("Salario: "))  //lectura de datos que no son cadenas, casting conviertiendo permanentemente
+
+if salario >= 2500:
+	ejecutivo = true
+else:
+	ejecutivo = false
+
+'''
+if ejecutivo == true:
+	neto = salario * 0.95
+else:
+	neto = salario * 0.97
+'''
+
+'''
+if ejecutivo and salario > 10000:
+	neto = salario * 0.80
+else:
+	neto = salario * 0.97
+'''
+
+if ejecutivo or salario > 1500:
+	neto = salario * 0.80
+#o sino tambien: elif ejecutivo or 1500 >= salario > 1000:
+elif ejecutivo or salario <= 1500 and salario > 1000:
+	neto = salario * 0.95 
+else:
+	neto = salario * 0.97
+
+neto = salario * 0.95 //aritmetica -> entero con float, es más fuerte el float.
+
+'''
+print("Tu nombre es" + nombre)
+print("Tu salario es " + str(salario))
+'''
+print("\nTu nombre es " + y tu salario neto es " + str(neto))
+
+
+'''
+Quiz 1:
+Hacer un programa que lea una temperatura en farenheit y la convierta en celsius y si es mayor
+a 100°C imprima "caliente". Si es menor a 0°C imprima "frio"
+
+tempF = 0
+tempC = 0
+
+tempF = input("TempF: ") 
+
+tempC = tempF - 32/(1.8000)
+
+print("\nLa temperatura en Celsius es " + str(tempC))
+
+if tempC >= 100
+	print('caliente')
+elif tempC < 100
+	print('frio')
+'''
+
+'''
+Proyecto#1
+extrae info clima de la ciudad elegida y muestra iconos en base al clima
+
+Proyecto#2
+en base la respuesta de preguntas cae a carrera y la asigna 
+
+Proyecto#3
+xo
+
+Proyecto#4
+ficha clinica
+
+Proyecto#5
+Juego logica niño
+
+
+Que funcione como web, URL
+
+Ejecutable en Desktop
+
+o app en movil
+
+
+
+'''

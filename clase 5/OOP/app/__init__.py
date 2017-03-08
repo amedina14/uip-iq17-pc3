@@ -3,9 +3,12 @@ from app.Ejecutivo import Ejecutivo
 import time
 
 if __name__== "__main__":
-    print(__name__)     #este es el main
-    e1 = Empleados("Juan", 2500)    #Paso los parametros... 1 Modulo, 2 Clase, 3 Parametro
-    e2 = Empleados("Maria", 4250)   #Creo el segundo objeto
+    # este es el main
+    print(__name__)
+    # Paso los parametros... 1 Modulo, 2 Clase, 3 Parametro
+    e1 = Empleados("Juan", 2500)
+    # Creo el segundo objeto
+    e2 = Empleados("Maria", 4250)
     #print("Empleados Totales: " + str(Empleados.__conteo))
     e1.mostrar_conteo()
 
@@ -13,8 +16,10 @@ if __name__== "__main__":
     e1.mostrar_empleado()
     e2.mostrar_empleado()
 
-    ex1 = Ejecutivo("Petra", 15000) #creo OBJETO de clase EJECUTIVO
-    ex1.mostrar_empleado("Sr(a)") #creo OBJETO de clase EJECUTIVO, Y OVERLOAD le paso el parametro SALUDO para visualizar el atributo xq es privado
+    # creo OBJETO de clase EJECUTIVO
+    ex1 = Ejecutivo("Petra", 15000)
+    # creo OBJETO de clase EJECUTIVO, Y OVERLOAD le paso el parametro SALUDO para visualizar el atributo xq es privado
+    ex1.mostrar_empleado("Sr(a)")
     ex1.mostrar_conteo()
     ex1.mandar()
     ex1_salario_neto = ex1.calcular_salario_neto()

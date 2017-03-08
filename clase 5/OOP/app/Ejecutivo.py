@@ -1,13 +1,15 @@
 from app.Empleados import Empleados
 
-class Ejecutivo(Empleados): #Para trabajar con HERENCIA coloco el nombre de la clase padre
+#Para trabajar con HERENCIA coloco el nombre de la clase padre
+class Ejecutivo(Empleados):
     def mandar(self):
         print("Traeme un cafe!")
 
 
     def calcular_salario_neto(self):
-        return  self.__salario * 0.98
+        return  self.salario * 0.98
 
     def mostrar_empleado(self, saludo):
-        print("Nombre: {} {}".format(saludo,self.__nombre)) #abria que hacerlos gets
-        print("Salario: " + str(self.__salario))
+        # Para imprimir atributos privados habria que hacerlos metodos gets.
+        print("Nombre: {} {}".format(saludo,self.nombre))
+        print("Salario: " + str(self.salario))

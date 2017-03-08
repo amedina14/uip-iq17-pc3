@@ -1,0 +1,174 @@
+*Documentacion:
+(sphinx)
+-rst:
+algo que no puedes tener como comentario en codigo.
+
+A partir de la segunda de la segunda linea se comienza a documentar el codigo(por lo menos en python).
+
+"ReadTheDocs":
+Repositorio e documentacion. Tu documentacion la puedes subir en ese sitio.
+
+docstring: escribe los comentarios en el codigo para poder hacer la pagina html.
+como e Java.
+
+*para Unitary Test pruebas unitarias, primero importas directorios.
+
+Docs:
+-tools, -phinsx quick start (descargar), se coloca en directory "documentacion", 
+configurar/llenar en la barra de comandos. (1)
+
+(2)Formulario:
+-
+-Autor> Adrian
+-
+-epup builder>n
+- from modules>y
+-snippets>n
+-diff projects>n
+->n
+->n
+->n
+->n
+->n
+->n
+-python objects>y
+-make html>y
+
+(3)Se generan los files:
+en source dentro de "docs":
+static
+tamplates
+confi
+index
+
+(4)views, terminal:
+> cd docs.
+> make html
+
+(5)Corro HTML
+Dentro de build, index.
+
+path:
+-CMD
+-python
+-import sys
+-sys.executable
+
+TODO lo que instalas con PIP inicias con "sudo"
+
+*Empaquetado:
+pip.
+
+
+
+
+*Depuracion:
+Modulos de datos (jupyter)para:
+-analisis de datos tabulares 
+
+Debugging Tips PyCharm
+speaker 
+
+
+Debugging
+-Flask:
+sirve para.. objetos de la libreria
+
+-pdb
+-pudb
+
+visual studio code
+
+
+repositorio de Abdel ejemplos.
+
+ej. 1 en repo abdel
+
+v 75
+v 
+
+-en qe momeno se danio el prog
+
+1* se importa el pdb
+import pdb (INSPECCIOA)
+
+pdb.set_trace()
+
+tot = sub + imp
+// manera compleja se ejecuta en el terminal
+
+2* 
+
+PuDB depurar 
+-utilizar pip ...!?
+
+correr los resultados en el terminal..
+
+Listas comprensibas 17 repo
+
+run no levata la sesion de depuracion
+
+debug: core y en ese punto especifico se detiene.
+golpear con un breakpoint.
+ 
+
+3*
+ej 26
+
+recursividad
+
+all_but_last, last = number //10, number % 10
+return sum_digits(all_but_last) + last
+
+add to watches(seleciono linea y clic derecho), watches sirve para ver que pasa en la exprecion (ejemplo recursiones, series).. 
+tendre 2 ventanas: expresiones que quiero vigilar durante la recurividad
+
+
+4* 
+Q rutines: web services 
+caches.. esperar conexion BD
+
+conexion asincrona.
+
+
+
+import requests
+import json //espero un json (paquete de py)
+
+rest = requests.get('http://swapi.co/api/people/1') rest: <Response [200]>
+pass
+
+#pip install request
+
+json.dump(rest.text) //Leer documentacion
+
+with open('data.json','w') as output:
+//para los del clima
+
+#listas comprensivas asincronas
+xor 
+
+//depuracion tambien por 1 sola milesima.. y esto es 1 solo py..
+
+flosspa
+JavaScript - Meetup
+proximo mes
+
+
+5*
+
+
+
+
+
+
+
+
+-analisis de datos espaciales
+
+
+
+
+
+
+

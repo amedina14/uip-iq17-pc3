@@ -1,0 +1,41 @@
+ej 1
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return '''
+    <html>
+        <body>
+            <h1>Hola Mundo!</h1>
+        </body>
+    </html>
+    '''
+
+if __name__ == "__main__":
+    app.run()
+
+ej 2
+
+usar Jinja2
+
+{% ... %} sentencia (if fot etc)
+{{ ... }} expresion a imprimir en plantilla
+{#... #} comentario
+# ... # sentenica (if fot etc)
+
+
+
+los datsos Json > diccionario se envia a Jinja2
+
+
+ej 3
+
+ 
+app
+ static
+ taplate
+ main
+ 

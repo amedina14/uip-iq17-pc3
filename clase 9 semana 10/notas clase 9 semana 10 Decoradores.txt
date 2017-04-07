@@ -1,0 +1,53 @@
+Decoradores en Python. 
+Un decorador nos permite realizar modificación simples en objetos llamables como son las funciones ,métodos o clases. Estas modificaciones se realizan en tiempo de ejecución. ... La función a decorar que se recibe como un parámetro. La función decorada que es la función que devuelve el decorador.
+
+Una definición de los decoradores sería; es una función que recibe como parámetro otra función y devuelve una función,con lo que tenemos:
+
+El decorador que es una función.
+La función a decorar que se recibe como un parámetro.
+La función decorada que es la función que devuelve el decorador.
+Con un decorador podemos cambiar el comportamiento de un función, método o clase sin modificar su código, esa es la ventaja de utilizar un decorador. Se crea un “envoltura” alrededor de la función a decorar donde se encuentra el código que deseamos añadir, esta envoltura y la función original, es la nueva función que obtenemos.
+
+--------------
+001
+def decorador(funcion):
+002
+     def funcion_envoltura():
+003
+         print(“antes de la funcion”)
+004
+         funcion()
+005
+         print(“despues de la funcion”)
+006
+     return funcion_envoltura
+
+-------------
+001
+@decorador
+002
+def funcionPrueba():
+003
+    print(";no quiero que nadie modifique el codigo de la funcion")
+004
+ 
+005
+#ejecutamos la funcion
+006
+funcionPrueba()
+007
+ 
+008
+#tenemos como resultado
+009
+antes de ejecutar la funcion
+010
+no quiero que nadie modifique el codigo de la funcion
+011
+despues de ejecutar la funcion
+
+
+ANOTACIONES PY.
+Python supporta delle annotazioni testuali accessibili a run-time o anche analizzabili da un IDE per fini di controllo e documentazione del codice.
+
+Python è un linguaggio a tipizzazione dinamica, quindi non puoi sapere a priori di che tipo sarà la variabile che stai trattando. Però è possibile annotare il suo tipo atteso nella dichiarazione di funzioni e metodi, utile agli IDE per validare il codice.

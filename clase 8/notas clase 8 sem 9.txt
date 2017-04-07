@@ -1,0 +1,88 @@
+
+1* LLENAR FORMULARIO
+
+> Separate source and build directories (y/n) [n]: y
+
+> Do you want to use the epub builder (y/n) [n]: y
+
+autodoc: automatically insert docstrings from modules (y/n) [n]: Y
+
+> intersphinx: link between Sphinx documentation of different projects (y/n) [n]: y
+
+> ifconfig: conditional inclusion of content based on config values (y/n) [n]: y
+
+Create Makefile? (y/n) [y]: Y
+
+
+
+2* GENERAR FILES 
+
+Meterse a View> tools windows> terminal 
+para generar los files hola.rst y modules.rst
+
+modules.rst conecta > hola conecta > index.
+
+dentro de (docs)carpeta, aplico comando>>
+
+..clase9/docs# cd source
+../source# dir
+# sphinx-apidoc -o  . ../../app
+Creating file ./hola.rst.
+Creating file ./hola.rst.
+../source# dir
+hola.rst
+modules.rst
+
+
+3* HTML DOC
+
+en index:
+
+import os
+import sys
+
+sys.path.insert(0,os.path.abs
+
+
+dentro del modules>>
+
+   hola
+
+dentro del index>>
+
+linea 12, 14
+
+(mismo nivel)
+    modules
+
+
+
+TRABAJAR EN ENTORNO VIRTUALN PARA FLASK
+
+FLASK
+
+*GET
+
+funciones. 
+
+app route
+validar que la ruta coincide con la funcion para que la ejecute.
+Cargar pag, redireccionar. definir lo que va a hacer,
+
+QUE ES UN ANOTADOR, DECORADOR.
+
+
+-run metodo de la clase flaskque permite iniciar una conexion
+
+-puerto 5000 (para desarrollador) 127.0.0.1:5000
+-debug 
+
+*POST
+
+anotadores pyton
+decoradores python
+
+
+
+
+

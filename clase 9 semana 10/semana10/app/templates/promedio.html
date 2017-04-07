@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Promedio de notas</title>
+</head>
+    <body>
+    <table border="0">
+        {% for llave, valor in resultado.items() %}
+        <tr>
+            <th> {{ llave }} </th>
+            <th> {{ valor }} </th>
+            {% if valor >= 71 %}
+            <td>Pasaste</td>
+            {%else%}
+            <td>Fracaso</td>
+            {% endif %}
+        </tr>
+    {% endfor %}
+        <tr>
+
+            <th> Promedio </th>
+            <td>{{ prom }}</td>
+            {% if prom >= 91 %}
+            <td> A </td>
+            {% elif prom >= 81 %}
+            <td> B </td>
+            {% elif prom >= 71 %}
+            <td> C </td>
+            {% else %}
+            <td> F </td>
+            {% endif %}
+        </tr>
+
+    </table>
+    </body>
+</html>

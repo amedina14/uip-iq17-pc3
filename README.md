@@ -6,5 +6,4 @@
 - **Horario curso**: Miercoles, 6:30 pm a 10:20 pm
 
 ---
-##License
-The code for this repository is under the MIT license(view LICENSE file).
+The License for code this repository is under the MIT license(view LICENSE file).

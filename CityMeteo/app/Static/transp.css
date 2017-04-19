@@ -1,0 +1,15 @@
+#segundo, #tercero {
+  opacity: 90.5;
+}
+ 
+#primero {
+  background-color: blue;
+}
+ 
+#segundo {
+  background-color: red;
+}
+ 
+#tercero {
+  background-color: green;
+}

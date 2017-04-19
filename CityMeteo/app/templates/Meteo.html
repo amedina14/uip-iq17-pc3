@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>City Meteo</title>
+</head>
+<body background="{{ url_for('static', filename='cielo1.jpg') }}" bgcolor="#21DAD8">
+<table align="center" border="3" bgcolor="silver">
+<tr>
+    <td colspan="2">
+    <h1>
+        Datos meteorologicos de la ciudad de {{ciudad}}
+    </h1>
+</table><br><br>
+<table align="center" border="3" bgcolor="silver">
+<tr>
+    <td><h2>Country: {{ lugar }}</h2></td>
+    <td><h2>Location: {{ place }}</h2></td>
+</tr>
+<tr>
+    <td>
+        <h2>Status: {{ clima }}</h2></td>
+        <td><h2>Sunset: {{ sunset }}</h2>
+    </td>
+</tr>
+<tr>
+    <td><h2>Wind speed: {{ viento }} mph</h2></td>
+    <td><h2>Degradation: {{ degradacion }} rue</h2></td>
+</tr>
+<tr>
+    <td><h2>Humidity: {{ humedad }} %</h2></td>
+    <td><h2>Temperature: {{ temp }} °C</h2></td>
+</tr>
+<tr>
+    <td><h2>Atmospheric pressure: {{ press }} Pa</h2></td>
+    <td><h2>Sea level: {{ lvmar }} m</h2></td>
+</tr>
+
+
+</table>
+
+<center>
+    <form action="/">
+        <input type="submit" value="Home" height="35" width="35">
+    </form>
+</center>
+</body>
+</html>

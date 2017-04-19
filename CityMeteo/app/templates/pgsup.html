@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>City Meteo</title>
+</head>
+<center>
+    <marquee><h1><font color="#d5e049">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B i e n v e n i d o &nbsp;&nbsp; a:&nbsp;&nbsp;C i t y &nbsp;&nbsp; M e t e o !<br>
+    <u>C o n o c e &nbsp;&nbsp; e l &nbsp;&nbsp; c l i m a &nbsp;&nbsp; d e &nbsp;&nbsp; t u &nbsp;&nbsp;
+        c i u d a d </u></font></h1><br><br></marquee>
+</center>
+<body background="{{ url_for('static', filename='rayo.jpg') }}" bgcolor="#21DAD8">
+<font color="#d5e049">
+    <table align="center" border="3" bgcolor="">
+        <a href="{{ url_for('static', filename='transp.css') }}">
+    <tr>
+<td>
+    <form action="http://localhost:5000/login"><br>
+        <center><h1>Sing in</h1>
+                <input type="submit" value="Entra" />
+            <br>
+        </center>
+    </form>
+</td>
+<td>
+    <form action="http://localhost:5000/reg"><br>
+        <center><h1><b>Sing up</b></h1>
+                <input type="submit" value="Registrate" />
+            <br>
+        </center>
+    </form>
+</td>
+</tr>
+<tr>
+    <td colspan="2">
+        <form action="http://localhost:5000/meteo" method="post"><br>
+            <center><h1>Ingresa</h1>
+                <h2>Ciudad <input type="text" name="ciudad">
+                    <input type="submit" value="Verifica" />
+                </h2><br>
+            </center>
+        </form>
+    </td>
+</tr>
+</a>
+    </table>
+</font>
+</body>
+</html>
+
